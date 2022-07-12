@@ -16,7 +16,7 @@
 				class="links-cv">Linkedin⇗</a
 			>
 			<a href="https://twitter.com/OscarGuerrrox2" class="links-cv">Twitter⇗</a>
-			<button class="btn-cv">CV</button>
+			<button class="btn-cv mt-5 md:mt-0">CV</button>
 		</p>
 	</article>
 	<article class="justify-center text-center">
