@@ -1,5 +1,5 @@
-<section class="mx-auto px-8 py-4 md:px-20 grid md:grid-cols-2">
-    <article class="sm:row-start-2 md:row-auto">
+<section class="mx-auto px-8 py-2 md:px-20 grid md:grid-cols-2">
+    <article class="row-start-2 md:row-auto">
         <h1 class="text-3xl text-center">
             Hola, mi nombre es <strong>Oscar Guerrero</strong>
             y soy un Fullstack Developer.
