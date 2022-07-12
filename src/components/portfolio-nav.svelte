@@ -1,21 +1,27 @@
 <script>
-	let hiddenMenu = "hidden"
-    let hiddenName = ""
-    let mobileMenu = ""
-    const toogleMenu = () => {
-        hiddenMenu = hiddenMenu === "hidden" ? "" : "hidden"
-        hiddenName = hiddenName === "hidden" ? "" : "hidden"
-        mobileMenu = mobileMenu === "bg-primary-400" ? "" : "bg-primary-400"
-    }
+	let hiddenMenu = 'hidden';
+	let hiddenName = '';
+	let mobileMenu = '';
+	const toogleMenu = () => {
+		hiddenMenu = hiddenMenu === 'hidden' ? '' : 'hidden';
+		hiddenName = hiddenName === 'hidden' ? '' : 'hidden';
+		mobileMenu = mobileMenu === 'bg-primary-400' ? '' : 'bg-primary-400';
+	};
 </script>
 
-<nav class="{mobileMenu} sticky top-0 bg-white md:bg-white shadow-sm shadow-primary-200">
+<nav
+	class="{mobileMenu} sticky top-0 bg-white md:bg-white shadow-sm shadow-primary-200"
+>
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="flex md:justify-around">
 			<div class="flex space-x-7 md:space-x-40">
 				<div>
-					<a href="https://github.com/oguerrero/portfolio" class="{hiddenName} flex items-center py-4 px-2 ">
-						<span class="font-semibold text-gray-600 text-lg hover:text-primary-500"
+					<a
+						href="https://github.com/oguerrero/portfolio"
+						class="{hiddenName} flex items-center py-4 px-2 "
+					>
+						<span
+							class="font-semibold text-gray-600 text-lg hover:text-primary-500"
 							>Oscar Guerrero</span
 						>
 					</a>
@@ -30,7 +36,10 @@
 					</ul>
 				</div>
 				<div class="md:hidden flex items-center">
-					<button on:click={toogleMenu} class="outline-none mobile-menu-button hover:bg-primary-100 rounded-full p-2">
+					<button
+						on:click={toogleMenu}
+						class="outline-none mobile-menu-button hover:bg-primary-100 rounded-full p-2"
+					>
 						<svg
 							class="w-6 h-6 text-gray-900"
 							x-show="!showMenu"
