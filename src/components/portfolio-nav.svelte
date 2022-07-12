@@ -9,7 +9,7 @@
     }
 </script>
 
-<nav class="{mobileMenu} md:bg-white shadow-sm shadow-primary-200">
+<nav class="{mobileMenu} sticky top-0 md:bg-white shadow-sm shadow-primary-200">
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="flex md:justify-around">
 			<div class="flex space-x-7 md:space-x-40">
