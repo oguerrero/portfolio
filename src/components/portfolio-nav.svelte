@@ -9,12 +9,12 @@
     }
 </script>
 
-<nav class="{mobileMenu} sticky top-0 md:bg-white shadow-sm shadow-primary-200">
+<nav class="{mobileMenu} sticky top-0 bg-white md:bg-white shadow-sm shadow-primary-200">
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="flex md:justify-around">
 			<div class="flex space-x-7 md:space-x-40">
 				<div>
-					<a href="github.com" class="{hiddenName} flex items-center py-4 px-2 ">
+					<a href="https://github.com/oguerrero/portfolio" class="{hiddenName} flex items-center py-4 px-2 ">
 						<span class="font-semibold text-gray-600 text-lg hover:text-primary-500"
 							>Oscar Guerrero</span
 						>
