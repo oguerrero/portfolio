@@ -52,11 +52,11 @@
 				</div>
 				<div class="{hidden === false ? '' : "hidden"} justify-start mobile-menu none md:hidden">
 					<ul class="grid grid-cols-3 grid-rows-2">
-						<li class="nav-item text-white grid1">Sobre mí</li>
-						<li class="nav-item text-white">Skills</li>
-						<li class="nav-item text-white">Soft Skills</li>
-						<li class="nav-item text-white">Portafolio</li>
-						<li class="nav-item text-white">Contacto</li>
+						<li class="nav-item text-white"><a href="#aboutMe">Sobre mí</a></li>
+						<li class="nav-item text-white"><a href="#skills">Skills</a></li>
+						<li class="nav-item text-white"><a href="#soft">Soft Skills</a></li>
+						<li class="nav-item text-white"><a href="#projects">Proyectos</a></li>
+						<li class="nav-item text-white"><a href="#contact">Contacto</a></li>
 					</ul>
 				</div>
 			</div>
