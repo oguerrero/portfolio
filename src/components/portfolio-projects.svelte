@@ -1,4 +1,4 @@
-<section class="px-8 pt-6 pb-4 bg-secondary-50 md:px-20 scroll-m-10" id="projects">
+<section class="px-8 pt-6 pb-4 bg-secondary-50 md:px-20 scroll-m-16 md:scroll-m-10" id="projects">
 	<h1 class="pt-2 pb-8 text-4xl font-bold text-center">
 		Proyectos
 	</h1>

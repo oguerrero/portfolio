@@ -1,4 +1,4 @@
-<section class="p-6 scroll-m-10" id="skills">
+<section class="p-6 scroll-m-16 md:scroll-m-10" id="skills">
 	<h1 class="text-center text-4xl font-bold pt-4 pb-8">Skills</h1>
 	<article
 		class="flex flex-wrap gap-x-10 gap-y-8 justify-around md:gap-x-2 lg:px-24"
