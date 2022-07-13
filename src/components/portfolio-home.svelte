@@ -24,7 +24,7 @@
 			<a href="https://drive.google.com/file/d/1FVnovE9z2Gj9pLf_l732UH4tZ3ozcubS/view?usp=sharing" class="mt-5 btn-cv md:mt-0">CV</a>
 		</p>
 	</article>
-	<article class="justify-center text-center">
+	<article class="justify-center text-center" >
 		<img src="/images/logo.jpg" alt="logo" class="logo" />
 	</article>
 </section>

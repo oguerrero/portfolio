@@ -1,4 +1,4 @@
-<section class="bg-secondary-50 py-6 px-8 md:px-20">
+<section class="bg-secondary-50 py-6 px-8 md:px-20 scroll-m-32" id="aboutMe">
 	<article class="">
 		<h1 class="text-4xl pb-4">Sobre mi</h1>
 		<p class="text-lg text-gray-800 text-justify">

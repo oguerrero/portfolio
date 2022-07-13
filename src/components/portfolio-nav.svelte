@@ -24,11 +24,11 @@
 				</div>
 				<div class="hidden md:flex items-center">
 					<ul class="flex flex-row gap-6 ">
-						<li class="nav-item">Sobre mí</li>
-						<li class="nav-item">Skills</li>
-						<li class="nav-item">Soft Skills</li>
-						<li class="nav-item">Proyectos</li>
-						<li class="nav-item">Contacto</li>
+						<li class="nav-item"><a href="#aboutMe">Sobre mí</a></li>
+						<li class="nav-item"><a href="#skills">Skills</a></li>
+						<li class="nav-item"><a href="#soft">Soft Skills</a></li>
+						<li class="nav-item"><a href="#projects">Proyectos</a></li>
+						<li class="nav-item"><a href="#contact">Contacto</a></li>
 					</ul>
 				</div>
 				<div class="md:hidden flex items-center">

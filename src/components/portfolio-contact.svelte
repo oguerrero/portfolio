@@ -1,4 +1,4 @@
-<section class="bg-secondary-50 px-8 pt-6 pb-4 md:px-20">
+<section class="bg-secondary-50 px-8 pt-6 pb-4 md:px-20 scroll-m-16" id="contact">
 	<article class="md:flex md:flex-row">
 		<div class="hidden md:flex">
 			<img src="images/contacto.png" alt="" />
