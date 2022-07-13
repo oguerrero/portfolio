@@ -6,6 +6,7 @@
 	import Soft from '../components/portfolio-soft.svelte';
 	import Portfolio from '../components/portfolio-projects.svelte';
 	import Contact from '../components/portfolio-contact.svelte';
+	import Footer from '../components/portfolio-footer.svelte';
 </script>
 
 <Nav />
@@ -15,3 +16,4 @@
 <Soft />
 <Portfolio />
 <Contact />
+<Footer />

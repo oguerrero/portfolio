@@ -1,15 +1,56 @@
-<section class="bg-primary-200">
-	<p>
-		Portafolio Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-		magnam eligendi natus tenetur sapiente laborum facere quas suscipit
-		delectus! Voluptates nam exercitationem impedit nisi, eveniet aliquid iusto
-		eius blanditiis nemo tempora quas consequatur voluptatem earum. Quasi iure
-		modi officia quod in. Sequi quos error sed nostrum! Minima illo assumenda,
-		earum ratione et ad, iusto eligendi nesciunt, sit exercitationem aliquid
-		dolor eius nemo tempora accusantium? Expedita facere non cum corrupti
-		veritatis ducimus ut cupiditate cumque quis doloremque odit, impedit
-		exercitationem aliquam quo accusantium culpa dicta nisi reprehenderit
-		laboriosam modi nulla nam deserunt totam! Quidem eum iure libero inventore
-		eius hic quibusdam!
-	</p>
+<section class="px-8 pt-6 pb-4 bg-secondary-50 md:px-20">
+	<h1 class="pt-2 pb-8 text-4xl font-bold text-center">
+		Proyectos
+	</h1>
+	<article class="flex flex-col pt-2 md:flex-row">
+		<div>
+			<img src="images/proyectos-kinder1.png" class="w-full md:w-11/12" alt="">
+		</div>
+		<div class="py-4">
+			<h1 class="mb-2 text-lg font-bold text-gray-900">
+				Sitio web para Jardin de niños Bambi.
+			</h1>
+			<h2 class="font-bold text-gray-700">
+				Freelance
+			</h2> 
+			<div class="flex flex-row justify-center pt-4">
+				<a href="https://github.com/oguerrero/web-bambi" class="btn-code">Codigo</a>
+				<a href="https://jardindeninosbambi.com/" class="btn-demo">Demo</a>
+			</div>
+		</div>
+	</article>
+	<article class="flex flex-col pt-2 md:flex-row-reverse">
+		<div class="ml-4">
+			<img src="images/proyectos-ahorcado.png" class="w-full" alt="">
+		</div>
+		<div class="py-4">
+			<h1 class="mb-2 text-lg font-bold text-gray-900">
+				Juego ahorcado.
+			</h1>
+			<h2 class="font-bold text-gray-700">
+				Challenge Oracle
+			</h2> 
+			<div class="flex flex-row justify-center pt-4">
+				<a href="https://github.com/oguerrero/juego-ahorcado" class="btn-code">Codigo</a>
+				<a href="https://oguerrero.github.io/juego-ahorcado/" class="btn-demo">Demo</a>
+			</div>
+		</div>
+	</article>
+	<article class="flex flex-col pt-2 mt-3 md:flex-row">
+		<div>
+			<img src="images/proyectos-encriptado.png" class="w-full md:w-11/12" alt="">
+		</div>
+		<div class="py-4">
+			<h1 class="mb-2 text-lg font-bold text-gray-900">
+				Encriptador de texto.
+			</h1>
+			<h2 class="font-bold text-gray-700">
+				Challenge Oracle
+			</h2> 
+			<div class="flex flex-row justify-center pt-4">
+				<a href="https://github.com/oguerrero/oguerrero.decoder" class="btn-code">Codigo</a>
+				<a href="https://oguerrero.github.io/oguerrero.decoder/" class="btn-demo">Demo</a>
+			</div>
+		</div>
+	</article>
 </section>

@@ -1,34 +1,27 @@
-<script>
-	let urlCv = "https://drive.google.com/file/d/1FVnovE9z2Gj9pLf_l732UH4tZ3ozcubS/view?usp=sharing";
-	const getCV = () => {
-		window.open(urlCv, "_blank");
-	};
-</script>
-
-<section class="mx-auto px-8 py-2 md:px-20 grid md:grid-cols-2">
+<section class="grid px-8 py-2 mx-auto md:px-20 md:grid-cols-2">
 	<article class="row-start-2 md:row-auto">
 		<h1 class="text-3xl text-center md:pt-16">
 			Hola, mi nombre es <strong>Oscar Guerrero</strong>
 			y soy un Fullstack Developer.
 		</h1>
-		<p class="pt-2 text-lg md:px-20 text-center">
+		<p class="pt-2 text-lg text-center md:px-20">
 			Me encanta aprender nuevas tecnologías que faciliten y agilicen el
 			desarrollo de aplicaciones web.<br /> Actualmente estoy aprendiendo a usar
 			<strong>Svelte</strong> para crear aplicaciones web.
 		</p>
-		<p class="text-center pt-4">
+		<p class="pt-4 text-center">
 			<a href="https://github.com/oguerrero" class="links-cv">
-				<img src="images/github.svg" alt="" class="w-6 h-6 inline-block">
+				<img src="images/github.svg" alt="" class="inline-block w-6 h-6">
 			</a>
 			<a
 				href="https://www.linkedin.com/in/oscar-guerrero-b444941ba/"
 				class="links-cv">
-				<img src="images/linkedin.svg" alt="" class="w-6 h-6 inline-block">
+				<img src="images/linkedin.svg" alt="" class="inline-block w-6 h-6">
 			</a>
 			<a href="https://twitter.com/OscarGuerrrox2" class="links-cv">
-				<img src="images/twitter.svg" alt="" class="w-6 h-6 inline-block">
+				<img src="images/twitter.svg" alt="" class="inline-block w-6 h-6">
 			</a>
-			<button class="btn-cv mt-5 md:mt-0" on:click={getCV} >CV</button>
+			<a href="https://drive.google.com/file/d/1FVnovE9z2Gj9pLf_l732UH4tZ3ozcubS/view?usp=sharing" class="mt-5 btn-cv md:mt-0">CV</a>
 		</p>
 	</article>
 	<article class="justify-center text-center">
