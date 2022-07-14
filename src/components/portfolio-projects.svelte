@@ -14,7 +14,6 @@
 				Freelance
 			</h2> 
 			<div class="flex flex-row justify-center pt-4">
-				<a href="https://github.com/oguerrero/web-bambi" class="btn-code">Codigo</a>
 				<a href="https://jardindeninosbambi.com/" class="btn-demo">Demo</a>
 			</div>
 		</div>

@@ -16,7 +16,7 @@
 		@apply bg-white rounded p-6 shadow-lg w-5/12 md:w-1/6;
 	}
 	.nav-item {
-		@apply p-2 font-medium text-gray-500 rounded hover:bg-primary-500 hover:text-white transition duration-300;
+		@apply p-2 font-medium text-gray-500 rounded hover:bg-gray-200 hover:text-white transition duration-300;
 	}
 	.logo {
 		@apply rounded-full h-64 w-64 inline;
