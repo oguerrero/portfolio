@@ -9,6 +9,10 @@
 	import Footer from '../components/portfolio-footer.svelte';
 </script>
 
+<svelte:head>
+    <title>Portafolio</title>
+</svelte:head>
+
 <Nav />
 <Home />
 <About />

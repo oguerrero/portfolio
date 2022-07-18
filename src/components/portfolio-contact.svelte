@@ -1,31 +1,45 @@
 <script lang="ts">
-	let values = {
-		name: '',
-		email: '',
-		affair: '',
-		message: '',
-	};
+	let nombre = '',
+		email = '',
+		asunto = '',
+		mensaje = '',
+		honey = '';
 	let valid = false;
 	const validate = () => {
-		if (
-			values.name != '' &&
-			values.email != '' &&
-			values.affair != '' &&
-			values.message != ''
-		) {
+		if (nombre != '' && email != '' && asunto != '' && mensaje != '') {
 			valid = true;
 		}
 	};
-	const handleSubmit = () => {
-		var domain = values.email.substring(values.email.lastIndexOf('@') + 1);
-		const validDomains = [
-			'yahoo.com',
-			'gmail.com',
-			'hotmail.com',
-			'outlook.com',
-			'yahoo.com.mx',
-		];
-		return alert('Enviado');
+	const handleSubmit = async (event: Event) => {
+		event.preventDefault();
+		const contact = {
+			name: nombre,
+			email: email,
+			subject: asunto,
+			honeypot: honey, // if any value received in this field, form submission will be ignored.
+			message: mensaje,
+			accessKey: '74d5f2cf-200b-416e-a92e-9037c87cac11', // get your access key from https://www.staticforms.xyz
+		};
+		try {
+			const res = await fetch('https://api.staticforms.xyz/submit', {
+				method: 'POST',
+				body: JSON.stringify(contact),
+				headers: { 'Content-Type': 'application/json' },
+			});
+			const json = await res.json();
+			if (json.success) {
+				nombre = '';
+				email = '';
+				asunto = '';
+				mensaje = '';
+				honey = '';
+				alert('Mensaje enviado');
+			} else {
+				alert('Error al enviar el mensaje');
+			}
+		} catch (e) {
+			alert('Error');
+		}
 	};
 </script>
 
@@ -46,17 +60,18 @@
 					id="nombre"
 					placeholder="Nombre"
 					class="w-full px-4 py-2 border border-gray-300 rounded-lg mt-4 mb-2"
-					bind:value={values.name}
+					bind:value={nombre}
 					on:change={validate}
 					required
 				/>
+				<input type="text" name="honeypot" class="hidden" bind:value={honey} />
 				<input
 					type="email"
 					name="email"
 					id="email"
 					placeholder="Email"
 					class="w-full px-4 py-2 border border-gray-300 rounded-lg my-2"
-					bind:value={values.email}
+					bind:value={email}
 					on:change={validate}
 					required
 				/>
@@ -66,7 +81,7 @@
 					id="asunto"
 					placeholder="Asunto"
 					class="w-full px-4 py-2 border border-gray-300 rounded-lg my-2"
-					bind:value={values.affair}
+					bind:value={asunto}
 					on:change={validate}
 					required
 				/>
@@ -77,7 +92,7 @@
 					rows="10"
 					placeholder="Mensaje"
 					class="resize-none w-full px-4 py-2 border border-gray-300 rounded-lg my-2"
-					bind:value={values.message}
+					bind:value={mensaje}
 					on:change={validate}
 					required
 				/>
@@ -86,7 +101,7 @@
 					value="enviar"
 					class=" {valid === true
 						? 'bg-red-600'
-						: 'bg-gray-600'} w-full px-4 py-2  text-white rounded-lg my-2"
+						: 'bg-gray-600'} w-full px-4 py-2  text-white rounded-lg my-2 cursor-pointer"
 					disabled={!valid}
 				/>
 			</form>
